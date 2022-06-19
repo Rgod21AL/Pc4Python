@@ -19,7 +19,6 @@ def get_font():
                 if list_fuentes.count(font) == 0:
                     print("Su fuente no existe, intentelo de nuevo")
                     font = input("Ingrese la fuente que desea: ")
-                    break
                 else:
                     break
             break
